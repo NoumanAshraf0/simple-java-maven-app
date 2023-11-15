@@ -40,7 +40,7 @@ jobs:
         path: testing
 
     - name: Deploy to Server
-      uses: appleboy/scp-action@v2
+      uses: appleboy/scp-action@v0.1.4
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
