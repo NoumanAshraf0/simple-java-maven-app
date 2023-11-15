@@ -58,6 +58,7 @@ jobs:
               password: ${{ secrets.PASSWORD }}
               source: "*"
               target: "/home/nouman/test"
+              rm: true
       
 
       
