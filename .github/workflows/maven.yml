@@ -56,7 +56,7 @@ jobs:
               host: ${{ secrets.HOST }}
               username: ${{ secrets.USERNAME }}
               password: ${{ secrets.PASSWORD }}
-              source: "${{ github.workspace }}/testing/*.jar"
+              source: "${{ github.workspace }}/*"
               target: "/home/nouman/test"
       
 
